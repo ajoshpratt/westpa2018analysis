@@ -9,4 +9,4 @@ echo -n "starting WEST client process on "; hostname
 echo "current directory is $PWD"
 echo "environment is:"
 env | sort
-$WEST_ROOT/bin/w_run "$@" &> west-$WEST_JOBID-$(hostname -s).log
+$WEST_ROOT/bin/w_ipa "$@" &> west-$WEST_JOBID-$(hostname -s).log
