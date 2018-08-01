@@ -7,5 +7,5 @@ module load python/anaconda2.7-4.2.0
 cd ~/
 git clone https://github.com/westpa/westpa.git
 cd westpa
-./setup.sh
+nice -n 19 ./setup.sh
 chmod +x westpa.sh
